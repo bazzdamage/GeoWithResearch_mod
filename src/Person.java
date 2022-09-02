@@ -5,6 +5,11 @@ public class Person {
         this.fullName = fullName;
     }
 
+    @Override
+    public String toString() {
+        return fullName;
+    }
+
     public String getFullName() {
         return fullName;
     }
